@@ -1,0 +1,72 @@
+﻿.grid_bg {
+    background: #ffcc80;
+    padding: 15px;
+}
+
+.heading {
+    padding: 0 5px;
+    background: #FF9800;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+    .heading label {
+        padding: 5px;
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+.custom-control-description {
+    padding-top: 3px;
+}
+
+#app_photo{
+    width:250px;
+    height: 250px;
+}
+
+button.ui-datepicker-trigger {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #bcbcbc;
+    border-left: 0;
+    padding: 0.3rem .5rem;
+    font-size: .8rem;
+    line-height: 1.25;
+}
+
+    button.ui-datepicker-trigger img {
+        height: 1em;
+    }
+
+.form-control.datepicker {
+    width: 35%;
+    display: inline-block;
+}
+
+.navbar-brand .logo_large {
+    height: 50px;
+}
+
+.bg-blue {
+    background-color: #025aa5;
+}
+
+.form-check-input {
+    margin-right: 10px;
+}
+
+ul.declaration {
+    margin: 0;
+}
+
+    ul.declaration li {
+        padding-bottom: 15px;
+    }
+
+.navbar-brand{
+    margin:0 auto;
+}
