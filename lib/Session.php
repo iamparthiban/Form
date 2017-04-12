@@ -1,8 +1,7 @@
 <?php
 class Session{
     public static function init(){
-        session_start();
-        print_r("Session Started");
+        session_start();        
     }
 
     public static function set($key,$val){
@@ -20,15 +19,14 @@ class Session{
     public static function checkSession(){
         self::init();
         if(self::get("login")==false){
-        print_r($_SESSION[$key]);
             self::destroy();
-            header("Location:http://www.mazetech.co.in/demo/Form/admin/login.php");
+            header("Location:login.php");
         }
     }
 
     public static function destroy(){
         session_destroy();
-        header("Location:http://www.mazetech.co.in/demo/Form/admin/login.php");
+        header("Location:login.php");
     }
 }
 ?>
