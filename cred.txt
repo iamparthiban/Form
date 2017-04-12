@@ -1,0 +1,2 @@
+Added the database “db_clgform”.
+User “itsmyhall” was added to the database “db_clgform” with the requested privileges.
